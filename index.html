@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>css gradient</title>
+        <style>
+            @font-face {
+                font-family: "myfonts";
+                src: url("./fonts/Daisyway.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "sfonts";
+                src: url("./fonts/RaspberryjampersonaluseIta-MVR7v.otf")
+                    format("opentype");
+            }
+            @font-face {
+                font-family: "fonts";
+                src: url("./fonts/air.otf")  format("opentype");
+            }
+            body {
+                margin: 0px;
+            }
+
+            .c {
+                width: 1600px;
+                height: 500px;
+                text-align: center;
+                font-size: 8em;
+                line-height: 500px;
+                font-family: "myfonts", sans-serif;
+                margin: 30px 0px;
+
+                background-image: linear-gradient(
+                    to right,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet
+                );
+            }
+            div.box2 {
+                font-family: "sfonts", sans-serif;
+                background-image: linear-gradient(
+                    to left,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet
+                );
+
+            }
+            div.box3 {
+                font-family: "myfonts", sans-serif;
+                background-image: linear-gradient(
+                    to bottom,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet
+                );
+
+
+            }
+            div.box4 {
+                font-family: "fonts", sans-serif;
+                background-image: linear-gradient(
+                    to bottom,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet
+                );
+
+        }
+            div.box5{
+                font-family: "sfonts", sans-serif;
+                background-image: linear-gradient(
+                    to left,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet,
+                    red,
+                    orange,
+                    yellow,
+                    green,
+                    blue,
+                    indigo,
+                    violet
+                );
+
+            }
+            div.box6{
+                background-image: linear-gradient(
+                    to top right,
+                    red,
+                    orange,
+                    yellow,
+                    rgb(11, 69, 11),
+                    crimson,
+                    blue,
+                    pink,
+                    lime,
+                    white,
+                    grey,
+                    black,
+                    maroon,
+                    magenta,
+                    darkgreen,
+                    purple,
+                    lime,
+                    skyblue,
+                    hotpink
+                )
+            }
+            div.box7{
+                background-image:repeating-linear-gradient(
+                    to top,
+                    red,
+                    orange,
+                    yellow,
+                    rgb(11, 69, 11),
+                    crimson,
+                    blue,
+                    pink,
+                    lime,
+                    white,
+                    grey,
+                    black,
+                    maroon,
+                    magenta,
+                    darkgreen,
+                    purple,
+                    lime,
+                    skyblue,
+                    hotpink
+                )
+            }
+
+        </style>
+    <body>
+        <div class="box1 c">THE RAINBOW</div>
+        <div class="box2 c">THE rainbow</div>
+        <div class="box3 c">The rainbow</div>
+        <div class="box4 c">The rainbow</div>
+        <div class="box5 c">THE RAINBOW</div>
+        <div class="box6 c"></div>
+        <div class="box7 c"></div>
+    </body>
+</html>
